@@ -1,0 +1,33 @@
+/*
+<--Created By
+DSmel.ru-->
+*/
+
+//Fonts
+$f-Mfred: 'Mfred';
+$f-Atlantic:'Atlantic';
+
+//Color
+$c-blue: #303952;
+$c-white: #fafafa;
+
+@import 'blocks/responsive';
+@import 'blocks/fonts';
+@import 'blocks/button';
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/footer';
+
+body {
+    background: $c-white;
+    color: #000;
+    margin: 0;
+
+	@include respond-to($xs) {
+		background: $c-blue;
+	}
+
+}
+
+
+
