@@ -1,0 +1,28 @@
+
+
+.button {
+
+    &__circle {
+        background: $c-brown;
+        width: 35px;
+        height: 35px;
+        border-radius: 5em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+
+    &__rectangle {
+
+        &:hover {
+
+        }
+    }
+
+}
