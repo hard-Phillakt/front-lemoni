@@ -58,3 +58,45 @@
 
     }
 }
+
+
+
+// Full menu
+
+.box-reletive {
+    position: relative;
+}
+
+.close-menu {
+    display: none;
+}
+
+.header-full-menu {
+    position: absolute;
+    width: 100%;
+    height: 320px;
+    z-index: 999;
+    background: $c-white;
+
+
+    .header-box {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+.header-box-full {
+
+    &__ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 15px;
+        }
+    }
+}

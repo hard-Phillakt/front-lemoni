@@ -1,21 +1,23 @@
 
-// $(document).ready(function () {
-//     $('.owl-carousel').owlCarousel({
-//         loop: true,
-//         margin: 0,
-//         nav: false,
-//         dots: true,
-//         responsive:{
-//             0:{
-//                 items:1
-//             },
-//             600:{
-//                 items:1
-//             },
-//             1000:{
-//                 items:1
-//             }
-//         }
-//     });
+// Menu start
 
-// });
+var navMenuIconlink = document.querySelectorAll('.nav-menu-icon__link');
+var headerFullMenu = document.querySelector('.header-full-menu');
+
+navMenuIconlink[1].onclick = function(){
+
+    if(headerFullMenu.classList[2] == 'close-menu'){
+        headerFullMenu.classList.remove('close-menu');
+    }
+    
+}
+
+navMenuIconlink[0].onclick = function(){
+
+    if(headerFullMenu.classList[2] != 'close-menu'){
+        headerFullMenu.classList.add('close-menu');
+    }
+    
+}
+
+// Menu end

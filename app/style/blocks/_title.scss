@@ -10,12 +10,56 @@
     }
 
     &__h2 {
-        
+
     }
 
     &__h3 {
         font-family: $f-lora;
         font-size: 16px;
-        color: #000000;
+        color: $c-black;
+    }
+
+    &__h4 {
+        font-family: $f-openSans;
+        font-size: 14px;
+        color: $c-black;
+        font-weight: 700;
+    }
+
+    &__h5 {
+        font-family: $f-openSans;
+        font-size: 12px;
+        color: $c-black;
+        font-weight: 400;
+    }
+
+    &__line_l-53 {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 25px;
+            left: 0;
+            width: 53%;
+            height: 2px;
+            background: #FDEFE4;
+        }
+
+    }
+
+    &__line_r-67 {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 25px;
+            right: 0;
+            width: 67%;
+            height: 2px;
+            background: #FDEFE4;
+        }
+
     }
 }

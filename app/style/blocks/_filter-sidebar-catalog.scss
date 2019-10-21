@@ -1,0 +1,31 @@
+
+.filter-sidebar-catalog {
+    margin-top: 120px;
+
+
+    &__box {
+
+        &_ul {
+            list-style: none;
+            padding: 0;
+
+            label {
+                display: flex;
+            }
+        }
+    }
+
+    &__box-compilation {
+        display: flex;
+        align-items: center;
+
+
+        &_ul {
+            list-style: none;
+            padding: 0;
+        }
+    }
+
+
+
+}

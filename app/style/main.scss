@@ -11,27 +11,25 @@ $c-black: #000;
 $c-brown: #8F5541;
 
 
-   
-
-  
-
 @import 'blocks/responsive';
 @import 'blocks/fonts';
 @import 'blocks/button';
 @import 'blocks/m-p-grid';
-@import 'blocks/links';
+@import 'blocks/link';
 @import 'blocks/desc';
 @import 'blocks/title';
+@import 'blocks/card';
 @import 'blocks/header';
 @import 'blocks/section-cake';
-
-
-
+@import 'blocks/popular-cake';
+@import 'blocks/instagram';
+@import 'blocks/breadcrumbs-line';
+@import 'blocks/filter-sidebar-catalog';
+@import 'blocks/global-form';
 
 
 
 @import 'blocks/footer';
-
 
 // font-family: 'Lora', serif;
 // font-family: 'Open Sans', sans-serif;
@@ -51,7 +49,7 @@ $c-brown: #8F5541;
 body {
     background: $c-white;
     margin: 0;
-    height: 9000px;
+    // height: 9000px;
 }
 
 ::selection {

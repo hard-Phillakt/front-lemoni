@@ -1,0 +1,18 @@
+
+.footer {
+    padding: 80px 0;
+    background: #8EBDAF;
+
+    &__ul {
+        list-style: none;
+
+        li {
+            color: $c-white;
+            margin-bottom: 25px;
+            
+            a {
+                color: $c-white;
+            }
+        }
+    }
+}

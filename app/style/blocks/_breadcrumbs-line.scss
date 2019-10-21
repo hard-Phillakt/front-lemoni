@@ -1,0 +1,20 @@
+
+.breadcrumbs-line {
+    background: #8F5541;
+    padding: 7px 0;
+
+    &__active {
+        color: $c-white;
+        opacity: 1;
+        
+        &:hover {
+            color: $c-white;
+        }
+    }
+
+    span {
+        color: $c-white;
+        opacity: 0.7;
+    }
+}
+

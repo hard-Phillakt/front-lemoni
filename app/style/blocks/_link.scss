@@ -1,0 +1,77 @@
+
+.link {
+    
+    &__a {
+        display: inline-flex;
+        position: relative;
+        color: $c-blue;
+        transition: all .3s ease-in-out;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 0%;
+            height: 1px;
+            background: $c-blue;
+            transition: all .3s ease-in-out;
+        }
+
+        &:hover::before {
+            content: '';
+            top: 100%;
+            left: 0;
+            width: 70%;
+            height: 1px;
+            background: $c-blue;
+            opacity: 0.7;
+        }
+
+        &:hover {
+            color: $c-blue;
+            text-decoration: none;
+            opacity: 0.7;
+        }
+
+        &_w {
+            display: inline-flex;
+            position: relative;
+            color: $c-white;
+            transition: all .3s ease-in-out;
+
+            &::before {
+                content: '';
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 0%;
+                height: 1px;
+                background: $c-white;
+                transition: all .3s ease-in-out;
+            }
+    
+            &:hover::before {
+                content: '';
+                top: 100%;
+                left: 0;
+                width: 70%;
+                height: 1px;
+                background: $c-white;
+                opacity: 0.7;
+            }
+    
+            &:hover {
+                color: $c-white;
+                text-decoration: none;
+                opacity: 0.7;
+            }
+        }
+    }
+ 
+    
+    &:focus {
+        color: $c-blue;
+        text-decoration: none;
+    }
+}

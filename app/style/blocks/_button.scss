@@ -19,9 +19,16 @@
 
 
     &__rectangle {
+        width: 160px;
+        height: 40px;
+        background: $c-brown;
+        border-radius: 4px;
+        border: none;
+        color: $c-white;
+        transition: all .3s ease-in-out;
 
         &:hover {
-
+            opacity: 0.7;
         }
     }
 
