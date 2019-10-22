@@ -1,6 +1,7 @@
 
 .link {
-    
+    cursor: pointer;
+
     &__a {
         display: inline-flex;
         position: relative;
@@ -24,15 +25,16 @@
             left: 0;
             width: 70%;
             height: 1px;
-            background: $c-blue;
+            background: #2F6F9E;
             opacity: 0.7;
         }
 
         &:hover {
-            color: $c-blue;
+            color: #2F6F9E;
             text-decoration: none;
-            opacity: 0.7;
         }
+
+
 
         &_w {
             display: inline-flex;
@@ -73,5 +75,22 @@
     &:focus {
         color: $c-blue;
         text-decoration: none;
+    }
+
+
+
+    &__active {
+
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100% !important;
+            height: 1px;
+            background: $c-blue;
+            transition: all .3s ease-in-out;
+        }
     }
 }

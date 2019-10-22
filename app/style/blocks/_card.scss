@@ -4,6 +4,13 @@
 }
 
 .card-img {
+    display: block;
+
+    &__bg {
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        height: 200px;
+    }
 
     &__img {
         display: block;
@@ -14,4 +21,15 @@
             border-radius: 5px 5px 0 0;
         }
     }
+}
+
+.card-price {
+    font-family: $f-openSans;
+    font-size: 14px;
+    line-height: 16px;
+    color: $c-black;
+}
+
+.shadow-card {
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.09);
 }

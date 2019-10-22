@@ -1,0 +1,20 @@
+
+.card-goods {
+
+
+    &__price {
+        font-family: $f-openSans;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 54px;
+        color: $c-black;
+    }
+
+    &__total {
+        font-family: $f-openSans;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 54px;
+        color: $c-black;  
+    }
+}

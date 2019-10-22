@@ -2,19 +2,34 @@
 .filter-sidebar-catalog {
     margin-top: 120px;
 
-
+// Filter col-lg-3
     &__box {
 
         &_ul {
             list-style: none;
             padding: 0;
 
-            label {
+            span {
                 display: flex;
+                align-items: center;
+                cursor: pointer;
+                line-height: 2.5;
             }
+
+            .chek-true {
+                background: url('../../img/icons/form/glog-form-chekbox-chek.svg') no-repeat !important;
+                background-position: center !important;
+                width: 14px;
+                height: 14px;
+            }
+
         }
     }
 
+
+
+
+    // Filter col-lg-8
     &__box-compilation {
         display: flex;
         align-items: center;
@@ -23,7 +38,12 @@
         &_ul {
             list-style: none;
             padding: 0;
+
+            span {
+                
+            }
         }
+
     }
 
 
