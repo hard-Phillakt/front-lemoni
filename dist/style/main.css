@@ -5997,6 +5997,118 @@ select {
   line-height: 54px;
   color: #000; }
 
+.wrapper-options input[type=button] {
+  color: #fff;
+  background: #8EBDAF;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  border-radius: 5em;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  padding: 0; }
+
+.optGuests__input {
+  border: 1px solid #F6D8CB;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 130px !important;
+  height: 35px;
+  font-size: 14px;
+  padding: 0 10px;
+  margin: 0 10px;
+  text-align: center; }
+
+.optGlaze__circle {
+  cursor: pointer;
+  border-radius: 5em;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px; }
+
+.optGlaze__circle input {
+  display: none; }
+
+.optDecore label {
+  cursor: pointer;
+  background-position: center !important;
+  background-size: cover !important;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 3px; }
+
+.optDecore__input {
+  position: relative; }
+
+.optDecore__input input {
+  display: none; }
+
+.optDecore__input_check {
+  position: relative;
+  cursor: pointer;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 3px; }
+
+.optDecore__input_check input {
+  display: none; }
+
+.optString__input {
+  border: 1px solid #F6D8CB;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 360px !important;
+  height: 35px;
+  font-size: 14px;
+  padding: 0 10px; }
+
+.wrapper-options {
+  position: relative; }
+
+.button-card__left {
+  cursor: pointer;
+  background: #8F5541 url("../../img/icons/arrow-right.svg") no-repeat;
+  width: 35px;
+  height: 35px;
+  border-radius: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease-in-out;
+  background-position: center;
+  transform: rotate(180deg);
+  position: absolute;
+  left: -40px;
+  top: 20px; }
+
+.button-card__right {
+  cursor: pointer;
+  background: #8F5541 url("../../img/icons/arrow-right.svg") no-repeat;
+  width: 35px;
+  height: 35px;
+  border-radius: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease-in-out;
+  background-position: center;
+  transform: rotate(0deg);
+  position: absolute;
+  right: -27px;
+  top: 20px; }
+
+.span_mini-title {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-size: 14px; }
+
 .footer {
   padding: 80px 0;
   background: #8EBDAF; }
