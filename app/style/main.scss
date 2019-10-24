@@ -27,6 +27,8 @@ $c-brown: #8F5541;
 @import 'blocks/filter-sidebar-catalog';
 @import 'blocks/global-form';
 @import 'blocks/card-goods';
+@import 'blocks/cart';
+@import 'blocks/delivery';
 
 
 
@@ -48,9 +50,9 @@ $c-brown: #8F5541;
 }
 
 body {
+    // height: 9000px;
     background: $c-white;
     margin: 0;
-    // height: 9000px;
 }
 
 ::selection {

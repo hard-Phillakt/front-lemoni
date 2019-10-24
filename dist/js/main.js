@@ -10364,8 +10364,7 @@ return jQuery;
 } );
 
 
-
-//  Глобальный класс start
+//  Глобальный класс карточки товара start
 function GlogalOptionsCard() {
     
 
@@ -10521,8 +10520,6 @@ this.optGuests = function(box_count, classNameBox, count) {
             spanMiniTitle.innerHTML = miniTitle[i];
 
             dvizhOption_label[i].append(spanMiniTitle);
-
-            console.log(dvizhOption_label[i]);
             
         }
     }
@@ -10566,17 +10563,17 @@ this.optString = function (box_count, classNameBox, count) {
 
 
 }
-//  Глобальный класс end
+//  Глобальный класс карточки товара  end
 
 
 
-var mainCard = new GlogalOptionsCard();
+// var mainCard = new GlogalOptionsCard();
 
 // Колличество гостей:
-mainCard.optGuests(0, 'optGuests', [0, 1, 2]);
+// mainCard.optGuests(0, 'optGuests', [0, 1, 2]);
 
 // Выберите цвет глазури:
-mainCard.optGlaze(1, 'optGlaze', ['C76445', 'F5ECDF', 'C75A5A', '8CA5E3', '8CE3A5', 'E38CCB']);
+// mainCard.optGlaze(1, 'optGlaze', ['C76445', 'F5ECDF', 'C75A5A', '8CA5E3', '8CE3A5', 'E38CCB']);
 
 
 // картинки для опций
@@ -10598,16 +10595,18 @@ var miniTitle = [
 ]
 
 // декор 
-mainCard.optDecore(2, 'optDecore', arrOptDecore, 'radio', true, miniTitle);
-
+// mainCard.optDecore(2, 'optDecore', arrOptDecore, 'radio', false, miniTitle);
+ 
 // Добавьте поздравительную надпись
-mainCard.optString(3, 'optString', [0]);
+// mainCard.optString(3, 'optString', [0]);
 
 // Формат поздравительной надписи 
-mainCard.optDecore(4, 'optDecore', arrOptDecore, 'radio', true, miniTitle);
+// mainCard.optDecore(4, 'optDecore', arrOptDecore, 'radio', false, miniTitle);
 
 // Выберите упаковку 
-mainCard.optDecore(5, 'optDecore', arrOptDecore, 'radio', true, null);
+// mainCard.optDecore(5, 'optDecore', arrOptDecore, 'radio', false, null);
+
+
 
 
 
@@ -10682,3 +10681,4 @@ filterSidebarCatalogBoxCompilation_ul.forEach(function (item, i) {
     }
 
 })
+

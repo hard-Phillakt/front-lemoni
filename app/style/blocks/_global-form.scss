@@ -16,7 +16,7 @@
         width: 100%;
         height: 35px;
         font-size: 14px;
-        padding: 0 10px;
+        padding: 5px 10px;
     }
 
     &__select {
@@ -70,6 +70,16 @@ select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+
+    &:focus {
+        box-shadow: 1px 0px 7px 0px #F6D8CB;
+        outline: none;
+    }
+}
+
+textarea {
+    height: 100% !important;
+    outline: none;
 
     &:focus {
         box-shadow: 1px 0px 7px 0px #F6D8CB;

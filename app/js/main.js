@@ -70,3 +70,4 @@ filterSidebarCatalogBoxCompilation_ul.forEach(function (item, i) {
     }
 
 })
+
