@@ -202,7 +202,7 @@ this.optString = function (box_count, classNameBox, count) {
 
 
 
-// var mainCard = new GlogalOptionsCard();
+var mainCard = new GlogalOptionsCard();
 
 // Колличество гостей:
 // mainCard.optGuests(0, 'optGuests', [0, 1, 2]);
